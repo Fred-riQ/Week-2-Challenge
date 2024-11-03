@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    font-family: arial;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+h2{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+#addText{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    position: absolute;
+    top: 30%;
+    left: 53%;
+    width: 20%;
+    height: 10%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+#item-list {
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 31%;
+    left: 45%;
+}
+
+#clear-item {
+    background-color: rgb(54, 79, 10);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12%;
+    cursor: pointer;
+    position: absolute;
+    top: 53%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+
+#add-button {
+    background-color: rgb(54, 79, 10);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12%;
+    cursor: pointer;
+    position: absolute;
+    top: 27%;
+    left: 62%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+#mark-purchased {
+    background-color: rgb(54, 79, 10);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15%;
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+}
+.purchased {
+text-decoration: line-through;
+color: rgb(72, 8, 29);
+}
